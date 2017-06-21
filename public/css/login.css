@@ -1,0 +1,15 @@
+.login-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-panel {
+    align-self: center;
+    width: 350px;
+}
+
+.login-panel button.btn.btn-primary {
+    width: 100%;
+}
