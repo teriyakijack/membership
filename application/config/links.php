@@ -8,9 +8,11 @@
 $config['Home'] = '';
 $config['Users'] = 'Users';
 $config['Friends'] = 'Friends';
+$config['Wallet'] = 'Balances/transaction';
 $config['Login'] = 'users/login';
 $config['Logout'] = 'users/logout';
 $config['Register'] = 'users/register';
 $config['AddFriend'] = 'Friends/add';
 $config['RemoveFriend'] = 'Friends/remove';
 $config['DetailFriend'] = 'Friends/detail';
+$config['transaction'] = 'Balances/transaction';

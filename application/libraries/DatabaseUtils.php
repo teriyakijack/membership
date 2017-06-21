@@ -25,7 +25,7 @@
          * @param Array $params parameter array
          * @return bool return true if success otherwise false
          */
-        public function runTransaction(&$refObj, $functionName = '', &$params = []) {
+        public function runTransaction($refObj, $functionName = '', $params = []) {
             if (method_exists($refObj, $functionName)) {
                 $this->CI->db->trans_begin();
                 call_user_func_array([$refObj, $functionName], $params);

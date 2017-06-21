@@ -8,3 +8,4 @@
 $config['Home'] = '';
 $config['Users'] = 'Users';
 $config['Friends'] = 'Friends';
+$config['Wallet'] = 'Balances/transaction';
